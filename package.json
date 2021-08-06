@@ -9,5 +9,8 @@
   },
   "repository": "https://github.com/cannarron/meal-plan",
   "author": "Vanessa I. Osuka",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "nodemon": "^2.0.12"
+  }
 }
