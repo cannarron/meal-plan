@@ -4,21 +4,10 @@
   "description": "A free web API that helps a user plan their meals based on requirements and sends a proposed schedule to their mail",
   "main": "app.js",
   "scripts": {
-    "test": "node dev"
+    "dev": "",
+    "start": ""
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/cannarron/meal-plan.git"
-  },
-  "keywords": [
-    "mealplan",
-    "schedule",
-    "food"
-  ],
+  "repository": "https://github.com/cannarron/meal-plan",
   "author": "Vanessa I. Osuka",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/cannarron/meal-plan/issues"
-  },
-  "homepage": "https://github.com/cannarron/meal-plan#readme"
+  "license": "MIT"
 }
