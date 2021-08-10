@@ -4,13 +4,18 @@
   "description": "A free web API that helps users plan their meals based on requirements and sends a proposed schedule to their mail",
   "main": "app.js",
   "scripts": {
-    "dev": "",
-    "start": ""
+    "start:dev": "cross-env NODE_ENV=development nodemon app",
+    "start:prod": "cross-env NODE_ENV=production node app",
+    "test:server": "cross-env NODE_ENV=test node app"
   },
   "repository": "https://github.com/cannarron/meal-plan",
   "author": "Vanessa I. Osuka",
   "license": "MIT",
   "dependencies": {
+    "crossenv": "^0.0.2-security",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
     "nodemon": "^2.0.12"
   }
 }
