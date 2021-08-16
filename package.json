@@ -12,10 +12,10 @@
   "author": "Vanessa I. Osuka",
   "license": "MIT",
   "dependencies": {
-    "crossenv": "^0.0.2-security",
+    "cross-env": "^7.0.3",
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
-    "mongoose": "^5.13.5",
+    "mongoose": "^5.13.6",
     "nodemon": "^2.0.12"
   }
 }
