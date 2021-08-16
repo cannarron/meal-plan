@@ -8,7 +8,7 @@
     "start:prod": "cross-env NODE_ENV=production node app",
     "test:server": "cross-env NODE_ENV=test node app"
   },
-  "repository": "https://github.com/cannarron/meal-plan",
+  "repository": "https://github.com/cannarron/meal-planggfh",
   "author": "Vanessa I. Osuka",
   "license": "MIT",
   "dependencies": {
