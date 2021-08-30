@@ -7,8 +7,6 @@ const connectWithMongo = async () => {
             useUnifiedTopology: true,
             useFindAndModify:false
         })
-        console.log(`MongoDB listening on port: ${connection.connection.host}`
-        )
         
     } catch (error) {
         console.error(error)
